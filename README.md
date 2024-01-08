@@ -5,6 +5,8 @@ The topological shear variation index (TSVI) measures the variability of the loc
 Methods for WSS analysis and visualization are explained in a tutorial video showing how TSVI can be obtained from CFD-derived WSS data in the open-source Paraview environment.
 
 $$TSVI=\sqrt{\frac{1}{T}\int\limits_0^T \left[DIV_{WSS}-\overline{DIV_{WSS}}\right]^2 dt}$$
-where:
-$T$ is the cardiac cycle,
-$DIV_{WSS}$ is the divergence of the normalized WSS vector field 
+where 
+$T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $overline{DIV_{WSS}}$ is its average over the cardiac cycle.
+
+* References:*
+* 
