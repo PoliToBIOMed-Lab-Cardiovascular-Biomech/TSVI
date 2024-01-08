@@ -1,13 +1,16 @@
 # TSVI
 Tutorials and codes for TSVI calculation from wall shear stress (WSS) data
 
-The topological shear variation index (TSVI) measures the variability of the local contraction/expansion action exerted on the endothelium by the WSS along the cardiac cycle.
-Methods for WSS analysis and visualization are explained in a tutorial video showing how TSVI can be obtained from CFD-derived WSS data in the open-source Paraview environment.
+The topological shear variation index (TSVI) measures the variability of the local contraction/expansion action exerted on the endothelium by the WSS along the cardiac cycle. 
+TSVI is defined as the root mean square deviation of the divergence of the normalized WSS with respect to its average over the cardiac cycle:
+
 
 $$TSVI=\sqrt{\frac{1}{T}\int\limits_0^T \left[DIV_{WSS}-\overline{DIV_{WSS}}\right]^2 dt}$$
 where 
-$T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $\overline{DIV_{WSS}}$ is its average over the cardiac cycle.
-
+$T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $\overline{DIV_{WSS}}$ is its average over the cardiac cycle.<br />
+<br />
+Methods for WSS analysis and visualization are explained in a tutorial video showing how TSVI can be obtained from CFD-derived WSS data in the open-source Paraview environment.
+<br />
 *References:* <br />
 1. *Mazzi V, Gallo D, Calò K, Najafi M, Khan MO, De Nisco G, Steinman DA, Morbiducci U. A Eulerian method to analyze wall shear stress fixed points and manifolds in cardiovascular flows. Biomech Model Mechanobiol. 2020 Oct;19(5):1403-1423. doi: 10.1007/s10237-019-01278-3. Epub 2019 Dec 21. PMID: 31865482.* <br />
 2. *De Nisco G, Tasso P, Calò K, Mazzi V, Gallo D, Condemi F, Farzaneh S, Avril S, Morbiducci U. Deciphering ascending thoracic aortic aneurysm hemodynamics in relation to biomechanical properties. Med Eng Phys. 2020 Aug;82:119-129. doi: 10.1016/j.medengphy.2020.07.003. Epub 2020 Jul 12. PMID: 32709262.* <br />
