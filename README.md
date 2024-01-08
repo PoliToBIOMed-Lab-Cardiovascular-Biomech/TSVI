@@ -9,4 +9,6 @@ where
 $T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $\overline{DIV_{WSS}}$ is its average over the cardiac cycle.
 
 *References:* <br />
-*Mazzi V, Gallo D, Calò K, Najafi M, Khan MO, De Nisco G, Steinman DA, Morbiducci U. A Eulerian method to analyze wall shear stress fixed points and manifolds in cardiovascular flows. Biomech Model Mechanobiol. 2020 Oct;19(5):1403-1423. doi: 10.1007/s10237-019-01278-3. Epub 2019 Dec 21. PMID: 31865482.*
+*Mazzi V, Gallo D, Calò K, Najafi M, Khan MO, De Nisco G, Steinman DA, Morbiducci U. A Eulerian method to analyze wall shear stress fixed points and manifolds in cardiovascular flows. Biomech Model Mechanobiol. 2020 Oct;19(5):1403-1423. doi: 10.1007/s10237-019-01278-3. Epub 2019 Dec 21. PMID: 31865482.* <br />
+*De Nisco G, Tasso P, Calò K, Mazzi V, Gallo D, Condemi F, Farzaneh S, Avril S, Morbiducci U. Deciphering ascending thoracic aortic aneurysm hemodynamics in relation to biomechanical properties. Med Eng Phys. 2020 Aug;82:119-129. doi: 10.1016/j.medengphy.2020.07.003. Epub 2020 Jul 12. PMID: 32709262.* <br />
+*Mazzi V, De Nisco G, Hoogendoorn A, Calò K, Chiastra C, Gallo D, Steinman DA, Wentzel JJ, Morbiducci U. Early Atherosclerotic Changes in Coronary Arteries are Associated with Endothelium Shear Stress Contraction/Expansion Variability. Ann Biomed Eng. 2021 Sep;49(9):2606-2621. doi: 10.1007/s10439-021-02829-5. PMID: 34324092; PMCID: PMC8455396.*
