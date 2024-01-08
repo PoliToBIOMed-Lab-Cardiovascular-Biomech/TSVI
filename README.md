@@ -6,7 +6,7 @@ Methods for WSS analysis and visualization are explained in a tutorial video sho
 
 $$TSVI=\sqrt{\frac{1}{T}\int\limits_0^T \left[DIV_{WSS}-\overline{DIV_{WSS}}\right]^2 dt}$$
 where 
-$T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $overline{DIV_{WSS}}$ is its average over the cardiac cycle.
+$T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $\overline{DIV_{WSS}}$ is its average over the cardiac cycle.
 
-* References:*
-* 
+*References:*
+
