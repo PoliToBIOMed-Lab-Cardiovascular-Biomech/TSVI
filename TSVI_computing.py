@@ -54,7 +54,7 @@ scale = 1 #scale factor for surface scaling (if geometry is in mm scale=0.001)
 
 # Read the VTK PolyData from a file
 surface = ReadPolyData('filename.vtp')
-# Initialize lists to store intantaneous wall shear stress (WSS) vector and its magnitude
+# Initialize lists to store intantaneous WSS vector and its magnitude
 wss = list()
 wssMag = list()
 # Loop over each time step to calculate WSS vector and its magnitudes
@@ -108,7 +108,7 @@ normWSSdiv_diff = list()
 for i in range(int(T/dt)):
     normWSSdiv_diff.append((normWSSdiv[:,i]-normWSSdiv_mean)**2)
 
-# Calculate the Topological Shear Stress Variation Index (TSVI)
+# Calculate the TSVI
 TSVI = np.sqrt((1/T)*sum(normWSSdiv_diff)*dt)
 # Convert the TSVI data to a VTK array
 TSVI_vtk = writeScalarVTKarray(TSVI,'TSVI')
