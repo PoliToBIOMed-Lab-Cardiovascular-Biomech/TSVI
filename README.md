@@ -9,7 +9,7 @@ $$TSVI=\sqrt{\frac{1}{T}\int\limits_0^T \left[DIV_{WSS}-\overline{DIV_{WSS}}\rig
 where 
 $T$ is the cardiac cycle, $DIV_{WSS}$ is the divergence of the normalized WSS vector field, and $\overline{DIV_{WSS}}$ is its average over the cardiac cycle. Thus, TSVI is an integral measure of the local unsteady nature of the WSS manifolds along the cardiac cycle, and hence of the heterogeneous action of the hemodynamic forces to which endothelial cells may be focally exposed.<br />
 <br />
-A Python code processessing wall shear stress (WSS) data related to a surface mesh in Visualization Toolkit Polygonal (vtp) format, to calculate Topological Shear Variation Index (TSVI)
+The python code **TSVI_computing.py** processes WSS data related to a surface mesh in Visualization Toolkit Polygonal (vtp) format, to calculate TSVI. <br />
 Methods for WSS analysis and visualization are explained in a tutorial video showing how TSVI can be obtained from CFD-derived WSS data in the open-source Paraview environment.<br />
 <br />
 *References:* <br />
